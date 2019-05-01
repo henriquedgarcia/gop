@@ -6,7 +6,7 @@ import json
 import subprocess
 
 
-def find_gop(filename, outfile, save=True):
+def find_gop(filename, outfile=None, save=True):
     print(f'Processing {filename}.')
 
     command = (f'ffprobe '
